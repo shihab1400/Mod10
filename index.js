@@ -36,6 +36,7 @@ function countWords(w) {
 
 function removeDuplicates(arr) {
    let noDup = [];
+
    arr.forEach((e) => {
       noDup.push(e);
    });
@@ -49,9 +50,3 @@ function removeDuplicates(arr) {
    }
    return noDup;
 }
-
-let a = [2, 4, 3, 5, 2, 6, 3, 4, 5, 7, 8];
-
-console.log(removeDuplicates(a));
-
-console.log(a);
